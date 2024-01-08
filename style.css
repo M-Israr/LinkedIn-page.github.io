@@ -1,0 +1,395 @@
+.navbar {
+    position: sticky;
+    top: 20px;
+    z-index: 999;
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #606060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 8px 16px; */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.logo-img img {
+    height: 60px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    margin-right: 4px;
+    width: 250px;
+}
+
+.search-btn {
+    padding: 8px 10px;
+    border: 1px solid #606060;
+    color: #606060;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s ease-in;
+}
+.search-btn:hover{
+    background-color: #1876f2;
+    color: white;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 5px 5px;
+    transition: 0.8s ease-in-out;
+}
+.menu ul li a:hover{
+    color: #1876f2;
+    border-bottom: 1px solid #1876f2;
+}
+.main {
+    /* border: 1px solid black; */
+    /* width: 50vw; */
+    /* height: 120vh; */
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+.main-min {
+    /* border: 1px solid black; */
+    width: 50vw;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.image-container {
+    width: 50px;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.image-container img {
+    border-radius: 50%;
+}
+
+.search-box {
+    padding: 20px;
+    position: relative;
+}
+
+.search-box input[type="text"] {
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 350px;
+
+}
+
+.xyz {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+
+.xyz ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-image {
+    color: rgb(36, 173, 226);
+}
+
+.fa-calendar-days {
+    color: rgb(191, 147, 26);
+}
+
+.fa-file-pen {
+    color: rgb(243, 91, 74);
+}
+
+.line {
+    position: absolute;
+    left: 30%;
+    top: 8.3%;
+    width: 40vw;
+    border-bottom: 1px solid #606060;
+}
+
+.main-1 {
+    width: 50vw;
+    height: 430px;
+    margin: auto;
+    margin-top: 20PX;
+    border-radius: 20px;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.post-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.user-profile p {
+    margin-bottom: -1px;
+    font-weight: 600;
+    color: #626262;
+}
+
+.user-profile span {
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+.post-text {
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.post-text span {
+    color: #626262;
+    font-weight: 500;
+}
+
+.post-text a {
+    text-decoration: none;
+    color: #1876f2;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.activity-icons div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.activity-icons div img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.post-profile-icon {
+    display: flex;
+    align-items: center;
+}
+
+.left-side-box {
+    width: 20vw;
+    position: absolute;
+    top: 120px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.img-1 {
+
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149001650.jpg?size=626&ext=jpg);
+    height: 80px;
+    position: relative;
+    background-size: cover;
+    background-position: center, center;
+}
+
+.img-2 {
+    position: absolute;
+    left: 50%;
+    bottom: -26px;
+    transform: translateX(-50%);
+
+}
+.img-2 img {
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.left-side-text h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 25px 0;
+}
+.left-side-text p{
+    font-size: 15px;
+    text-align: center; 
+    border-bottom: 1px solid #626262;  
+    padding-bottom: 10px;
+}
+.left-side-text-1 p{
+    font-size: 15px;
+    line-height: 2px;
+    padding-left: 5px;
+}
+.left-side-text-1{
+    border-bottom:1px solid #606060;
+}
+.my-item p{
+    font-weight: bold;
+    color: #353434;
+    margin-left: 15px;
+}
+.left-side-box-1{
+    width: 20vw;
+    height: 300px;
+    position: absolute;
+    top: 70%;
+    background-image: url(https://img.freepik.com/free-vector/job-vacancy-background-with-chair_23-2147872789.jpg?w=740&t=st=1704751273~exp=1704751873~hmac=7764f112cc155fbba63d9cf95c4e4d9b088369b093008901cbe201f5f272ab90);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px; 
+    cursor: pointer;
+}
+.left-side-box-2{
+    width: 20vw;
+    height: 300px;
+    position: absolute;
+    top: 120%;
+    background-image: url(https://img.freepik.com/free-vector/business-people-work-concept_24908-60357.jpg?size=626&ext=jpg&ga=GA1.1.1889773371.1699636108&semt=sph);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px; 
+    cursor: pointer;
+}
+.right-side-box {
+    width: 20vw;
+    height: 250px;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    
+}
+.rt-side-img{
+    background-image: url(https://img.freepik.com/free-psd/we-are-hiring-banner-vacancy-announcement-with-editable-text-effect_47987-11801.jpg?w=740&t=st=1704749916~exp=1704750516~hmac=7c2711f7e84a9d40303751b490331bedb9c7e21977d34da2762445e325d7b5db);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.msg-box {
+    position: fixed;
+    top: 62%;
+    right: 20px;
+    width: 20vw;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  .dialogue {
+    padding: 10px;
+    height: 150px;
+    overflow-y: scroll;
+  }
+  .msg {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .my-pic {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .msg-content {
+    margin-left: 10px;
+  }
+  .received .my-pic {
+    background-color: #e0e0e0;
+    
+  }
+  .sent .my-pic {
+    background-color: #b2e2bb;
+  }
+  .msg-text{
+    word-wrap: break-word;
+  }
+  .input-area {
+    display: flex;
+    padding: 5px;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+  }
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-right: 1px;
+    width: 155px;
+  }
+  .send-btn  {
+    padding: 6px 8px;
+    border: none;
+    background-color: #4caf50;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .send-btn:hover{
+    background-color: #45a049;
+  }
+ 
